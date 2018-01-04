@@ -23,8 +23,7 @@ public class Fibonacci {
             int current = 0;
             int pre = 1;
             int next = 1;
-            for (int i = 1; i <=
-                    length; i++) {
+            for (int i = 1; i <= length; i++) {
                 if (i < 3) {
                     current = pre = next;
                 } else {
